@@ -1,0 +1,118 @@
+/* Set background color to black and text color to white */
+body {
+    background-color: black; /* Black background */
+    color: rgb(215, 196, 196); /* White text */
+}
+
+/*rachel's page*/
+h1 {
+    margin-top: 25px;
+    font-size: 90px;
+    color: rgb(215, 196, 196); /* Ensure headings are white */
+    font-family: 'Georgia', sans-serif; /* Apply Google Font (Poppins) */
+    /*font-weight: bold;  Make the heading bold */
+}
+
+/* Distance between "Profile" and "Let's get to know me" */
+.lead {
+    margin-top: 140px; /* Tambahkan jarak antara "Profile" dan "Let's get to know me" */
+}
+
+
+.left-side {
+    flex: 1;
+    padding: 200px; /* Adjust padding as needed */
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.back-to-home {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background-color: #3263e1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-home:hover {
+    background-color: #ffffff;
+    color: #3263e1;
+    border: 1px solid #3263e1;
+}
+
+/* Style for headings */
+h1 {
+    margin-top: 30px;
+    color: rgb(215, 196, 196); /* Ensure headings are white */
+}
+
+
+/* Style for navigation links */
+.nav-link {
+    color: rgb(215, 196, 196); /* White text for nav links */
+    font-size: 18px;
+    text-align: center;
+    padding: 100px 200px;         /*buat bawah and atas button*/
+    background-size: cover; /* Agar gambar sesuai dengan ukuran tombol */
+    background-position: center;
+    border-radius: 9px; /* Membuat sudut tombol menjadi lebih halus */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+
+.nav-item:nth-child(1) .nav-link {
+    background-image: url('zprofile.png'); /* Ganti dengan path gambar Profile */
+}
+
+.nav-item:nth-child(2) .nav-link {
+    background-image: url('zsby.png'); /* Ganti dengan path gambar Hometown */
+}
+
+.nav-item:nth-child(3) .nav-link {
+    background-image: url('zfood.png'); /* Ganti dengan path gambar Local Food */
+}
+
+.nav-item:nth-child(4) .nav-link {
+    background-image: url('ztunjungan.png'); /* Ganti dengan path gambar Tourist Places */
+}
+
+
+
+/* Add hover effect for navigation links */
+.nav-link:hover {
+    color: hsl(353, 58%, 47%); /* Bootstrap's yellow color for hover */
+    opacity: 0.8;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+/* Optional: Button customization */
+.btn-primary {
+    background-color: #3263e1; /* Default blue button */
+    border-color: #3263e1;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff; /* Darker blue on hover */
+}
