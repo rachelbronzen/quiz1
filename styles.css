@@ -50,6 +50,27 @@ h1 {
     border: 1px solid #3263e1;
 }
 
+
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #3263e1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #ffffff;
+    color: #3263e1;
+}
+
+
 .nav-link {
     color: rgb(215, 196, 196); 
     font-size: 18px;
