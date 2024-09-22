@@ -109,3 +109,12 @@ h1 {
     align-items: center;
     height: 100vh;
 }
+
+.btn-primary {
+    background-color: #3263e1; 
+    border-color: #3263e1;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff; 
+}
